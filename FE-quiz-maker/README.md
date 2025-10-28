@@ -1,7 +1,6 @@
 # 🧠 Quiz Maker App
 
 A **Quiz Maker** built with **Next.js**, **Tailwind CSS**, and **TanStack Query (React Query)** for seamless API state management.
-The backend is powered by **Node.js**, secured using a **custom token-based authentication system**.
 
 This project allows users to **create, view, and manage coding-related quizzes** while demonstrating clean API integration and modern frontend architecture.
 
@@ -10,19 +9,10 @@ This project allows users to **create, view, and manage coding-related quizzes**
 ## 🚀 Tech Stack
 
 ### **Frontend**
-
 * Next.js – React framework with SSR & routing
 * Tailwind CSS – Utility-first styling
 * TanStack Query – Data fetching, caching, and synchronization
 * MUI –  UI components library
-
-### **Backend**
-
-* 🧩 **Node.js** – REST API server
-* 💾 **SQLite** – Lightweight local database
-* 🔐 **Dotenv** – Environment variable configuration
-
----
 
 ## 🧩 Project Structure
 
@@ -50,26 +40,15 @@ Quiz-maker/
 
 ```bash
 git clone https://github.com/mjmaca/quiz-maker.git
-cd quiz-maker
+
 ```
 
 ### Install Dependencies and Start Frontend App
 
 ```bash
-cd client
+cd quiz-maker/FE-quiz-maker
 npm install
 npm run dev
 ```
 
-> Frontend runs on: **[http://localhost:3000](http://localhost:3000)**
-
----
-
-🧪 Testing the API in Postman
-Open Postman
-Set method to GET or POST (depending on endpoint)
-Add an Authorization Header:
-dev-token: 1234567890
-
-Example request:
-GET http://localhost:4000/quizzes
+> Frontend runs on: **[http://localhost:3000]
